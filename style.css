@@ -469,3 +469,96 @@ footer {
         height: 100px;
     }
 }
+/* AUTHOR PHOTO IN BIO SECTION (ONLY PLACE IT APPEARS) */
+.author-photo-bio {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #EEB45E;
+}
+
+/* BUY MOCKUP */
+.buy-mockup {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* BUY SECTION */
+.buy-section {
+    background: linear-gradient(135deg, #0F1F36 0%, #0A1729 100%);
+}
+
+.buy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.buy-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(238, 180, 94, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.buy-card:hover {
+    transform: translateY(-5px);
+    border-color: #EEB45E;
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    background: #EEB45E;
+    color: #1F160D;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-buy.disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+.payment-note {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 0.8rem;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: rgba(0,0,0,0.2);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background: rgba(255,255,255,0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid #EEB45E;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: #EEB45E;
+}
