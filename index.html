@@ -11,35 +11,27 @@
 </head>
 <body>
     <div class="container">
-        <!-- HERO SECTION -->
+        <!-- HERO SECTION (No author photo here) -->
         <section class="hero">
             <div class="hero-content">
                 <h1 class="main-headline">The Restart Cycle Ends Here.</h1>
                 <p class="subheadline">A generational infrastructure manual for Black families.</p>
-                
-                <!-- AUTHOR PHOTO (NOW ADDED) -->
-                <div class="author-photo-container">
-                    <img src="/images/Author_Picture.jpg" alt="Chinua Eric Robinson" class="author-photo-main">
-                </div>
                 
                 <!-- MAIN BOOK COVER -->
                 <div class="book-cover-container">
                     <img src="/images/book-cover.jpg" alt="Your Children's Children Book Cover" class="book-cover-image">
                 </div>
                 
-                <!-- VIDEO TRAILER (COMING SOON) -->
-                <div class="video-container">
-                    <div class="video-placeholder">
-                        <p>📺 Watch the trailer</p>
-                        <small>Extended film coming soon</small>
-                    </div>
+                <!-- 3D MOCKUP -->
+                <div class="mockup-container">
+                    <img src="/images/Mockup-2-resize.jpg" alt="3D Book Mockup" class="mockup-image">
                 </div>
                 
                 <a href="#buy" class="btn btn-primary scroll-link">Buy Now — $7.77</a>
             </div>
         </section>
 
-        <!-- BUY SECTION (NEW) -->
+        <!-- BUY SECTION -->
         <section id="buy" class="buy-section">
             <div class="section-content">
                 <h2>Choose Your Format</h2>
@@ -49,12 +41,13 @@
                         <p class="price">$7.77</p>
                         <p class="format-desc">Instant access • Read anywhere</p>
                         <a href="#" class="btn btn-buy" id="buy-ebook-btn">Buy Now</a>
-                        <p class="payment-note">Secure checkout via Stripe</p>
+                        <p class="payment-note">Secure checkout via Gumroad</p>
                     </div>
                     <div class="buy-card">
                         <h3>📖 Paperback</h3>
                         <p class="price">$21.21</p>
                         <p class="format-desc">Printed • 275 pages • Ships worldwide</p>
+                        <img src="/images/Mockup-2-resize.jpg" alt="Paperback Mockup" class="buy-mockup">
                         <a href="#" class="btn btn-buy" id="buy-paperback-btn">Pre-order Now</a>
                         <p class="payment-note">Available Juneteenth 2026</p>
                     </div>
@@ -93,7 +86,7 @@
             </div>
         </section>
 
-        <!-- TESTIMONIALS / SOCIAL PROOF (NEW) -->
+        <!-- TESTIMONIALS SECTION -->
         <section class="testimonials">
             <div class="section-content">
                 <h2>What Readers Are Saying</h2>
@@ -114,7 +107,7 @@
             </div>
         </section>
 
-        <!-- AUTHOR BIO SECTION -->
+        <!-- AUTHOR BIO SECTION (Photo appears here — ONCE) -->
         <section class="author">
             <div class="section-content">
                 <h2>About the Author</h2>
@@ -156,14 +149,16 @@
 
     <script src="script.js"></script>
     <script>
-        // Simple buy button handlers (replace with actual payment links)
+        // Replace these links with your actual Gumroad product links
         document.getElementById('buy-ebook-btn')?.addEventListener('click', function(e) {
             e.preventDefault();
-            alert('Checkout coming soon. Subscribe to be notified when the book is live!');
+            // Replace 'YOUR_GUMROAD_EBOOK_LINK' with your actual Gumroad link
+            window.location.href = 'https://gumroad.com/YOUR_GUMROAD_EBOOK_LINK';
         });
         document.getElementById('buy-paperback-btn')?.addEventListener('click', function(e) {
             e.preventDefault();
-            alert('Pre-orders open Juneteenth 2026. Join the email list to be notified!');
+            // Replace 'YOUR_GUMROAD_PAPERBACK_LINK' with your actual Gumroad link
+            window.location.href = 'https://gumroad.com/YOUR_GUMROAD_PAPERBACK_LINK';
         });
     </script>
 </body>
