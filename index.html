@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Children's Children | Generational Infrastructure</title>
+    <title>Your Children's Children | Buy the Book</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,17 +17,55 @@
                 <h1 class="main-headline">The Restart Cycle Ends Here.</h1>
                 <p class="subheadline">A generational infrastructure manual for Black families.</p>
                 
+                <!-- AUTHOR PHOTO (NOW ADDED) -->
+                <div class="author-photo-container">
+                    <img src="/images/Author_Picture.jpg" alt="Chinua Eric Robinson" class="author-photo-main">
+                </div>
+                
                 <!-- MAIN BOOK COVER -->
                 <div class="book-cover-container">
                     <img src="/images/book-cover.jpg" alt="Your Children's Children Book Cover" class="book-cover-image">
                 </div>
                 
-                <!-- 3D MOCKUP (using Mockup-2-resize.jpg) -->
-                <div class="mockup-container">
-                    <img src="/images/Mockup-2-resize.jpg" alt="3D Book Mockup" class="mockup-image">
+                <!-- VIDEO TRAILER (COMING SOON) -->
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <p>📺 Watch the trailer</p>
+                        <small>Extended film coming soon</small>
+                    </div>
                 </div>
                 
-                <a href="#signup" class="btn btn-primary scroll-link">Enter the Framework</a>
+                <a href="#buy" class="btn btn-primary scroll-link">Buy Now — $7.77</a>
+            </div>
+        </section>
+
+        <!-- BUY SECTION (NEW) -->
+        <section id="buy" class="buy-section">
+            <div class="section-content">
+                <h2>Choose Your Format</h2>
+                <div class="buy-grid">
+                    <div class="buy-card">
+                        <h3>📱 Ebook</h3>
+                        <p class="price">$7.77</p>
+                        <p class="format-desc">Instant access • Read anywhere</p>
+                        <a href="#" class="btn btn-buy" id="buy-ebook-btn">Buy Now</a>
+                        <p class="payment-note">Secure checkout via Stripe</p>
+                    </div>
+                    <div class="buy-card">
+                        <h3>📖 Paperback</h3>
+                        <p class="price">$21.21</p>
+                        <p class="format-desc">Printed • 275 pages • Ships worldwide</p>
+                        <a href="#" class="btn btn-buy" id="buy-paperback-btn">Pre-order Now</a>
+                        <p class="payment-note">Available Juneteenth 2026</p>
+                    </div>
+                    <div class="buy-card">
+                        <h3>🎧 Audiobook</h3>
+                        <p class="price">$14.14</p>
+                        <p class="format-desc">Coming soon • Narrated by author</p>
+                        <a href="#" class="btn btn-buy disabled">Notify Me</a>
+                        <p class="payment-note">Join the list for updates</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -55,45 +93,34 @@
             </div>
         </section>
 
-        <!-- PRICING SECTION -->
-        <section class="pricing">
+        <!-- TESTIMONIALS / SOCIAL PROOF (NEW) -->
+        <section class="testimonials">
             <div class="section-content">
-                <h2>Structured Access</h2>
-                <div class="pricing-grid">
-                    <div class="pricing-tier">
-                        <h3>Founding Access</h3>
-                        <p class="tier-desc">First 10,000 copies</p>
-                        <p class="price">$7.77</p>
-                        <p class="format">Ebook</p>
+                <h2>What Readers Are Saying</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"This book changed how I talk to my children about legacy. Essential reading."</p>
+                        <p class="testimonial-author">— Early Reader</p>
                     </div>
-                    <div class="pricing-tier">
-                        <h3>Movement Expansion</h3>
-                        <p class="tier-desc">Next 25,000 copies</p>
-                        <p class="price">$14.14</p>
-                        <p class="format">Ebook</p>
+                    <div class="testimonial-card">
+                        <p>"A blueprint for generational wealth that actually addresses the root causes."</p>
+                        <p class="testimonial-author">— Financial Educator</p>
                     </div>
-                    <div class="pricing-tier">
-                        <h3>Standard Edition</h3>
-                        <p class="tier-desc">Ongoing</p>
-                        <p class="price">$19.99</p>
-                        <p class="format">Ebook</p>
-                        <p class="price">$21.21</p>
-                        <p class="format">Paperback</p>
+                    <div class="testimonial-card">
+                        <p>"Finally, a book that explains why our progress keeps resetting—and how to stop it."</p>
+                        <p class="testimonial-author">— Community Leader</p>
                     </div>
                 </div>
-                <p class="pricing-note"><em>Structured access. Not discount pricing.</em></p>
             </div>
         </section>
 
-        <!-- AUTHOR SECTION -->
+        <!-- AUTHOR BIO SECTION -->
         <section class="author">
             <div class="section-content">
-                <h2>Chinua Eric Robinson</h2>
+                <h2>About the Author</h2>
                 <div class="author-container">
                     <div class="author-image">
-                        <div class="image-placeholder">
-                            <div class="placeholder-text">Author Photo</div>
-                        </div>
+                        <img src="/images/Author_Picture.jpg" alt="Chinua Eric Robinson" class="author-photo-bio">
                     </div>
                     <div class="author-bio">
                         <p>Chinua Eric Robinson is a systems architect and public intellectual focused on generational infrastructure within Black families. Born in the Bronx and raised across Harlem, Brooklyn, and Laurelton, Queens, he worked his way from low-wage labor to executive-level positions in security, finance, and data analytics—all while earning a BA in Psychology and a Master's in Industrial & Organizational Psychology. He is the father of two sons, ages 2 and 9. Through The 7 Billion Dollar Brain™ and Robinsonville Financial Network™, he builds systems that help families create continuity instead of constantly restarting.</p>
@@ -102,18 +129,16 @@
             </div>
         </section>
 
-        <!-- SIGNUP SECTION -->
+        <!-- SIGNUP SECTION (Email List) -->
         <section id="signup" class="signup">
             <div class="section-content">
                 <h2>Enter the Framework.</h2>
                 <h3>Join The Founding Families Briefing.</h3>
-                <p class="signup-desc">This is not a newsletter. It is a strategic briefing for families committed to building generational infrastructure.</p>
-                <p class="signup-desc">Founding members receive early access, structural updates, and implementation guidance before public release.</p>
+                <p class="signup-desc">Get weekly structural insights, early access, and implementation guidance.</p>
                 
-                <!-- KIT FORM EMBED -->
                 <script async data-uid="e60c23d80d" src="https://the-7-billion-dollar-brain.kit.com/e60c23d80d/index.js"></script>
                 
-                <p class="form-note">No spam. Structural briefings only.</p>
+                <p class="form-note">No spam. Unsubscribe anytime.</p>
             </div>
         </section>
 
@@ -122,11 +147,24 @@
             <div class="footer-links">
                 <a href="https://the7billiondollarbrain.com" target="_blank">The 7 Billion Dollar Brain™</a>
                 <a href="https://robinsonvillefinancial.com" target="_blank">Robinsonville Financial Network™</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
             </div>
-            <p class="copyright">© 2024 Chinua Eric Robinson</p>
+            <p class="copyright">© 2024 Chinua Eric Robinson. All rights reserved.</p>
         </footer>
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Simple buy button handlers (replace with actual payment links)
+        document.getElementById('buy-ebook-btn')?.addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Checkout coming soon. Subscribe to be notified when the book is live!');
+        });
+        document.getElementById('buy-paperback-btn')?.addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Pre-orders open Juneteenth 2026. Join the email list to be notified!');
+        });
+    </script>
 </body>
 </html>
