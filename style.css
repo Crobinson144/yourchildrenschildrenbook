@@ -330,3 +330,142 @@ footer {
         max-width: 90%;
     }
 }
+
+/* AUTHOR PHOTO MAIN */
+.author-photo-container {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.author-photo-main {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #EEB45E;
+}
+
+/* BUY SECTION */
+.buy-section {
+    background: linear-gradient(135deg, #0F1F36 0%, #0A1729 100%);
+}
+
+.buy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.buy-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(238, 180, 94, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.buy-card:hover {
+    transform: translateY(-5px);
+    border-color: #EEB45E;
+}
+
+.buy-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.buy-card .price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #EEB45E;
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    background: #EEB45E;
+    color: #1F160D;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-buy.disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+.payment-note {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 0.8rem;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: rgba(0,0,0,0.2);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background: rgba(255,255,255,0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid #EEB45E;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: #EEB45E;
+}
+
+/* VIDEO PLACEHOLDER */
+.video-container {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.video-placeholder {
+    background: rgba(255,255,255,0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px dashed #EEB45E;
+}
+
+/* AUTHOR PHOTO IN BIO SECTION */
+.author-photo-bio {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #EEB45E;
+}
+
+/* RESPONSIVE UPDATES */
+@media (max-width: 768px) {
+    .buy-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .author-photo-main {
+        width: 100px;
+        height: 100px;
+    }
+}
