@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Children's Children | Buy the Book</title>
+    <title>Your Children's Children | Pre-order Coming Juneteenth 2026</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,11 +11,16 @@
 </head>
 <body>
     <div class="container">
-        <!-- HERO SECTION (No author photo here) -->
+        <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-content">
                 <h1 class="main-headline">The Restart Cycle Ends Here.</h1>
                 <p class="subheadline">A generational infrastructure manual for Black families.</p>
+                
+                <!-- LAUNCH DATE BANNER -->
+                <div class="launch-banner">
+                    <p>📅 Launching <strong>Juneteenth 2026</strong></p>
+                </div>
                 
                 <!-- MAIN BOOK COVER -->
                 <div class="book-cover-container">
@@ -27,38 +32,17 @@
                     <img src="/images/Mockup-2-resize.jpg" alt="3D Book Mockup" class="mockup-image">
                 </div>
                 
-                <a href="#buy" class="btn btn-primary scroll-link">Buy Now — $7.77</a>
+                <a href="#signup" class="btn btn-primary scroll-link">Notify Me When Available</a>
             </div>
         </section>
 
-        <!-- BUY SECTION -->
-        <section id="buy" class="buy-section">
+        <!-- PRE-ORDER SECTION -->
+        <section id="preorder" class="preorder-section">
             <div class="section-content">
-                <h2>Choose Your Format</h2>
-                <div class="buy-grid">
-                    <div class="buy-card">
-                        <h3>📱 Ebook</h3>
-                        <p class="price">$7.77</p>
-                        <p class="format-desc">Instant access • Read anywhere</p>
-                        <a href="#" class="btn btn-buy" id="buy-ebook-btn">Buy Now</a>
-                        <p class="payment-note">Secure checkout via Gumroad</p>
-                    </div>
-                    <div class="buy-card">
-                        <h3>📖 Paperback</h3>
-                        <p class="price">$21.21</p>
-                        <p class="format-desc">Printed • 275 pages • Ships worldwide</p>
-                        <img src="/images/Mockup-2-resize.jpg" alt="Paperback Mockup" class="buy-mockup">
-                        <a href="#" class="btn btn-buy" id="buy-paperback-btn">Pre-order Now</a>
-                        <p class="payment-note">Available Juneteenth 2026</p>
-                    </div>
-                    <div class="buy-card">
-                        <h3>🎧 Audiobook</h3>
-                        <p class="price">$14.14</p>
-                        <p class="format-desc">Coming soon • Narrated by author</p>
-                        <a href="#" class="btn btn-buy disabled">Notify Me</a>
-                        <p class="payment-note">Join the list for updates</p>
-                    </div>
-                </div>
+                <h2>Founding Access</h2>
+                <p class="preorder-price">$7.77 — First 10,000 copies</p>
+                <p class="preorder-desc">Join the Founding Families Briefing to be notified the moment pre-orders open.</p>
+                <a href="#signup" class="btn btn-primary scroll-link">Join the Waitlist</a>
             </div>
         </section>
 
@@ -107,7 +91,7 @@
             </div>
         </section>
 
-        <!-- AUTHOR BIO SECTION (Photo appears here — ONCE) -->
+        <!-- AUTHOR BIO SECTION -->
         <section class="author">
             <div class="section-content">
                 <h2>About the Author</h2>
@@ -127,7 +111,7 @@
             <div class="section-content">
                 <h2>Enter the Framework.</h2>
                 <h3>Join The Founding Families Briefing.</h3>
-                <p class="signup-desc">Get weekly structural insights, early access, and implementation guidance.</p>
+                <p class="signup-desc">Be the first to know when pre-orders open. Get weekly structural insights.</p>
                 
                 <script async data-uid="e60c23d80d" src="https://the-7-billion-dollar-brain.kit.com/e60c23d80d/index.js"></script>
                 
@@ -148,18 +132,5 @@
     </div>
 
     <script src="script.js"></script>
-    <script>
-        // Replace these links with your actual Gumroad product links
-        document.getElementById('buy-ebook-btn')?.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Replace 'YOUR_GUMROAD_EBOOK_LINK' with your actual Gumroad link
-            window.location.href = 'https://gumroad.com/YOUR_GUMROAD_EBOOK_LINK';
-        });
-        document.getElementById('buy-paperback-btn')?.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Replace 'YOUR_GUMROAD_PAPERBACK_LINK' with your actual Gumroad link
-            window.location.href = 'https://gumroad.com/YOUR_GUMROAD_PAPERBACK_LINK';
-        });
-    </script>
 </body>
 </html>
